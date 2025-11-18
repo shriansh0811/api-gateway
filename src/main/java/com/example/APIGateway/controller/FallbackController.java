@@ -10,6 +10,7 @@ public class FallbackController {
 		return "Product service is down-served by API Gateway " + "Fallback Mechanism";
 	}
 
+	//Comment added
 	@GetMapping("/department-fallback")
 	public String departmentFallback() {
 		return "Department service is down-served by API Gateway " + "Fallback Mechanism";
